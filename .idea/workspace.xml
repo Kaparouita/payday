@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f522f5-326d-4558-a4b4-a322be054e78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Payday_phase1/Model/Card/Move_to.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Payday_phase1/Model/Card/Move_to.class" afterDir="false" />
-    </list>
+    <list default="true" id="e5f522f5-326d-4558-a4b4-a322be054e78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
