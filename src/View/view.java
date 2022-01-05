@@ -110,6 +110,7 @@ public class view extends JFrame implements ActionListener {
         pdv.readFile("View/resources/dealCards_greeklish.csv", "Deal");
         pdv.readFile("View/resources/mailCards_greeklish.csv", "Mail");
 
+        /* To ftiaksa se netbook kai htan full mikrh h othonh opote den evala to logo*/
         //main.add(logo);
         info_Box.setBackground(Color.cyan);
         main.add(player1_layer);
