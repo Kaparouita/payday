@@ -38,15 +38,26 @@ private  Dice pdice;
     public void setIs_first_turn(boolean is_first_turn) {
         this.is_first_turn = is_first_turn;
     }
-
+    /**
+     *<b>Accessor</b><p>
+     *<b>Post :</b> Returns if its first turn
+     * @return is_first_turn
+     */
     public boolean isIs_first_turn() {
         return is_first_turn;
     }
-
+    /**<b>Transformer</b><p>
+     * <b>Post :</b> set players dice
+     * @param p1dice
+     */
     public void setPdice(Dice p1dice) {
         this.pdice = p1dice;
     }
-
+    /**
+     *<b>Accessor</b><p>
+     *<b>Post :</b> Returns the dice of the player
+     * @return dice
+     */
     public Dice getPdice() {
         return pdice;
     }

@@ -67,7 +67,7 @@ public class controller {
      * Before the game starts ask the players how many
      * months the game should last
      */
-    public void start() {
+    private void start() {
         boolean b = true;
         while (b) {
             String months = (String) JOptionPane.showInputDialog(null, "Before we start the game," +
@@ -388,7 +388,7 @@ public class controller {
      * <b>Transformer</b>
      * Player roll to a day equals Thursday|Sunday
      */
-    public void performDayAction(player p1) {
+   private void performDayAction(player p1) {
         JOptionPane q = new JOptionPane();
         if (p1.getCurr_Position().getCurr_tile().getStr_day().equals("Thursday")) {
             ImageIcon image2 = new ImageIcon(new ImageIcon("./src/View/resources/images/crypto.jpg")
@@ -455,7 +455,7 @@ public class controller {
      * <b>Transformer</b>
      * Player roll 6 on
      */
-    public void Jackpot(int tmp) {
+    private void Jackpot(int tmp) {
         if (tmp == 6) {
             if (getturn() == 1)
                 jackpot.tile_action(p1, p2, Mail_Deck, Deal_Deck, jackpot);
@@ -471,7 +471,7 @@ public class controller {
      * int board with random order
      * 30=mail tile , 31=payday
      */
-    public void init_board() {
+    private void init_board() {
         Buyer buyer = new Buyer();
         Casino_Night casino = new Casino_Night();
         Lottery lottery = new Lottery();

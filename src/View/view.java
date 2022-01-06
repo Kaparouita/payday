@@ -111,7 +111,7 @@ public class view extends JFrame implements ActionListener {
         pdv.readFile("View/resources/mailCards_greeklish.csv", "Mail");
 
         /* To ftiaksa se netbook kai htan full mikrh h othonh opote den evala to logo*/
-        //main.add(logo);
+        main.add(logo);
         info_Box.setBackground(Color.cyan);
         main.add(player1_layer);
         main.add(player2_layer);
@@ -143,6 +143,7 @@ public class view extends JFrame implements ActionListener {
         board.setBounds(0, 20, 700, 600);
 
         logo.setSize(1000, 100);
+        logo.setBounds(700,1000,1000,100);
 
         mailButton.setBounds(720, 360, 120, 200);
         dealButton.setBounds(720, 140, 120, 200);
@@ -176,11 +177,11 @@ public class view extends JFrame implements ActionListener {
         info_turn.setBounds(870, 335, 300, 30);
         info_toDo.setBounds(870, 355, 300, 30);
 
-        logo.setBounds(0, 700, 1000, 100);
+        logo.setBounds(0, 680, 750, 130);
         Jackpot.setBounds(470, 630, 300, 30);
 
-        frame.setSize(1200, 700);
-        main.setPreferredSize(new Dimension(1200, 700));
+        frame.setSize(1200, 900);
+        main.setPreferredSize(new Dimension(1200, 780));
     }
 
     /**
@@ -303,7 +304,7 @@ public class view extends JFrame implements ActionListener {
         ImageIcon jackpotIcon = new ImageIcon("./src/View/resources/Board_images/jackpot.png");
         JLabel jackpot = new JLabel(jackpotIcon);
         ImageIcon logoIcon = new ImageIcon(new ImageIcon("./src/View/resources/Board_images/logo.png").
-                getImage().getScaledInstance(1000, 100, Image.SCALE_DEFAULT));
+                getImage().getScaledInstance(750, 130, Image.SCALE_DEFAULT));
         logo = new JLabel(logoIcon);
         jackpot.setBounds(380, 383, 400, 350);
         Jackpot.setFont(new Font("jackpot", Font.PLAIN, 25));
@@ -422,7 +423,7 @@ public class view extends JFrame implements ActionListener {
      * <b>sets the info of the months (at info box)</b>
      */
     public void setInfo_months() {
-        info_months.setText("Months left for P1 : " + c.getCurr_month1() + "Months left for P2 : " + c.getCurr_month2());
+        info_months.setText("Months left for P1 : " + c.getCurr_month1() + " , Months left for P2 : " + c.getCurr_month2());
     }
 
     /**

@@ -7,11 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5f522f5-326d-4558-a4b4-a322be054e78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Payday_phase1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Payday_phase1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Payday_phase1_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Payday_phase1_jar/Payday_phase1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Payday_phase1_jar/Payday_phase1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Payday_phase1/View/view.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Payday_phase1/View/view.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Player/player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Player/player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Dialogs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/view.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/view.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +43,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JAR Application.Payday_phase1.jar">
+  <component name="RunManager" selected="Application.Run">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Run" />
       <module name="Payday_phase1" />
@@ -71,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.Payday_phase1.jar" />
         <item itemvalue="Application.Run" />
+        <item itemvalue="JAR Application.Payday_phase1.jar" />
         <item itemvalue="Application.controller" />
       </list>
     </recent_temporary>
