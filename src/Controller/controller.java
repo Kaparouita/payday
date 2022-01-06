@@ -596,13 +596,5 @@ public class controller {
         return p2;
     }
 
-    /**
-     * start the game
-     *
-     * @param args
-     * @throws IOException
-     */
-    public static void main(String[] args) throws IOException {
-        controller c = new controller();
-    }
+
 }
